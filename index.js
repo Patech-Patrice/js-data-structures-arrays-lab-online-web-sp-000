@@ -29,11 +29,11 @@ function destructivelyRemoveFirstDriver(){
    return [name, ...drivers]
  }
 
-function removeLastKitten() {
-  var newKittens = kittens.slice(0, kittens.length -1)
-  return newKittens
+function removeLastDriver() {
+  var newDrivers = drivers.slice(0, drivers.length -1)
+  return newDrivers;
 }
- function removeFirstKitten() {
-  var newKittens = kittens.slice(1)
-  return newKittens
+ function removeFirstDriver() {
+  var newDrivers = drivers.slice(1)
+  return newDrivers;
 }
